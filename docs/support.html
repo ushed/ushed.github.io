@@ -4,6 +4,85 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Support</title>
+    <style>
+      /* ページ全体のリセットと基本設定 */
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        max-width: 600px; /* フォームの最大幅を設定し、中央に寄せる */
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+
+      /* 見出しのスタイル */
+      h1,
+      h2 {
+        color: #007bff; /* ブランドカラーを使用 */
+        border-bottom: 2px solid #eee;
+        padding-bottom: 10px;
+      }
+
+      /* フォーム要素のコンテナ (div) */
+      form div {
+        margin-bottom: 20px;
+      }
+
+      /* ラベルのスタイル */
+      label {
+        display: block; /* ラベルを独立した行に表示 */
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #555;
+      }
+
+      /* 入力フィールドとテキストエリアの共通スタイル */
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc; /* 薄いグレーの枠線 */
+        border-radius: 4px; /* 角を少し丸くする */
+        box-sizing: border-box; /* paddingとborderを幅に含める */
+        transition: border-color 0.3s;
+      }
+
+      /* フォーカス時のスタイル (ユーザー体験の向上) */
+      input[type="text"]:focus,
+      input[type="email"]:focus,
+      textarea:focus {
+        border-color: #007bff; /* フォーカス時に青い枠線 */
+        outline: none; /* デフォルトのアウトラインを消す */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* わずかな影 */
+      }
+
+      /* 送信ボタンのスタイル */
+      button[type="submit"] {
+        display: inline-block;
+        background-color: #007bff; /* ブランドカラーの背景 */
+        color: white;
+        padding: 12px 25px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+      }
+
+      /* ホバー時のボタンのスタイル */
+      button[type="submit"]:hover {
+        background-color: #0056b3; /* 濃い青色に変化 */
+      }
+
+      /* テキストエリアの高さを調整 */
+      textarea {
+        resize: vertical; /* 垂直方向のみリサイズ可能 */
+        min-height: 100px;
+      }
+    </style>
   </head>
   <body>
     <h1>Support</h1>
