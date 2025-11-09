@@ -7,5 +7,24 @@
   </head>
   <body>
     <h1>Support</h1>
+    <h2>お問い合わせ</h2>
+    <form
+      action="https://script.google.com/macros/s/AKfycbw61G2f1wW6IqfozPKvXeWBse-416zMJubnAl5lKzdCNMbb0Axfsj5GtFViinBtkavxjQ/exec"
+      method="POST"
+    >
+      <div>
+        <label for="name">お名前:</label><br />
+        <input type="text" id="name" name="user_name" required />
+      </div>
+
+      <div>
+        <label for="message">メッセージ:</label><br />
+        <textarea id="message" name="user_message" rows="5" required></textarea>
+      </div>
+
+      <div>
+        <button type="submit">送信</button>
+      </div>
+    </form>
   </body>
 </html>
